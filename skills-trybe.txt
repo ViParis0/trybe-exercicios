@@ -1,0 +1,6 @@
+- Unix
+- Bash
+- Git
+- HTML
+- CSS
+- Redes e Raspagem de Dados
