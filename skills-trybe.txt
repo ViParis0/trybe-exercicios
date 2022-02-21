@@ -5,3 +5,4 @@
 - CSS
 - Phyton
 - Soft Skills
+- Redes e Raspagem de Dados
