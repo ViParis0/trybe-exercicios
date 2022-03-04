@@ -1,0 +1,23 @@
+.indicie li {
+    display: inline;
+    margin-right: 30px;    
+}
+img {
+    width: 400px;
+}
+section {
+    width: 70%;
+    height: 70%;
+    margin-left: 10px;
+    background-color: #90044a;
+    color: #d0cf75;
+}
+h1 {
+    color: #440a2a
+}
+body {
+    background-color: #f8764e;
+}
+aside {
+    float:right
+}
