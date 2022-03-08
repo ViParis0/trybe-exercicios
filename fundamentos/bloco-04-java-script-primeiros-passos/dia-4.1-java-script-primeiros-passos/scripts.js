@@ -177,6 +177,29 @@ else {
     console.log('Erro')
 }
 
+// #11 
+
+let salarioBruto =1300;
+let salarioLiquido = salarioBruto - (inss + ir)
+
+let inss =null ;
+
+if (salarioBruto >0 && salarioBruto <= 1556.94) {
+    inss = 8%;
+}
+
+else if (salarioBruto >= 1556.95 && salarioBruto <= 2954.92) {
+    inss = 9%; 
+}
+
+else if (salarioBruto >= 2594.93 && salarioBruto <= 5189.82) {
+    inss = 11%; 
+}
+
+
+let inssReal = inss * salarioBruto / 100
+console.log(inssReal)
+
 
 
 
