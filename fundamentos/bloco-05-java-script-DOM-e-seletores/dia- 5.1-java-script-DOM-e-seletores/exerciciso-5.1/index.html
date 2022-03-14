@@ -1,37 +1,89 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Administrador do Tempo</title>
-  </head>
-  <body id="container">
-    <header id="header-container">
-      <h1>Administrador do Tempo da Trybe</h1>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.1</title>
+
+    <style>
+        main,
+        section {
+            border-color: black;
+            border-style: solid;
+        }
+
+        .title {
+            text-align: center;
+        }
+
+        .main-content {
+            background-color: yellow;
+        }
+
+        .main-content .center-content {
+            background-color: red;
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        .main-content .center-content p {
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Exercício 5.1 - JavaEscripito </h1>
     </header>
+    <main class="main-content">
+        <section class="center-content">
+            <p class="todosParagrafos">Texto padrão do nosso site</p>
+            <p class="todosParagrafos">-----</p>
+            <p class="todosParagrafos">Trybe</p>
+        </section>
+    </main>
+    <script>
+        function changeTagP(elemento, texto) {
+            document.getElementsByTagName(elemento)[0].innerText = texto;
+        }
+        function changeSquareColor(element, color) {
+            let elemento = document.getElementsByClassName(element)[0].style.backgroundColor = color;
+        }
+        function changeH1Text(element, text) {
+            let elementoTexto = document.getElementsByClassName(element)[0].innerText = text
+        }
+        function ChangeMaxText(element, text) {
+            let maxText = document.getElementsByTagName(element)[2].innerText = text.toUpperCase()
+            // transformar todo o texto em maiusculo https://www.w3schools.com/jsref/jsref_touppercase.asp
+        }
+        function exibeParagrafos(elemento) {
+            let exibeTextoParagrafo1 = document.getElementsByClassName(elemento)[0].innerHTML;
+            let exibeTextoParagrafo2 = document.getElementsByClassName(elemento)[1].innerHTML;
+            let exibeTextoParagrafo3 = document.getElementsByClassName(elemento)[2].innerHTML;
+            console.log(exibeTextoParagrafo1, exibeTextoParagrafo2, exibeTextoParagrafo3)
+        }
+        // exibeParagrafos('todosParagrafos')
+        // ChangeMaxText('p', 'trybe')
+        // changeH1Text('title', 'Exercício 5.1 - JavaEscript')
+        // changeSquareColor('center-content', 'white')
+        // changeSquareColor('main-content', 'green')
+        // changeTagP('p','Daqui a dois anos eu quero estar trabalhando na area de tecnologia, em uma empresa que é a minha cara')
 
-    <section class="emergency-tasks">
-      <div>
-        <h3>Urgente e Importante</h3>
-      </div>
-      <div>
-        <h3>Urgente e Não-Importante</h3>
-      </div>
-    </section>
+        /*
+        Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
+        - document.getElementById()
+        - document.getElementsByClassName()
+        - document.getElementsByTagName()
+ Crie uma função que mude o texto na tag <p> para uma descrição de como você se vê daqui a 2 anos. (Não gaste tempo pensando no texto e sim realizando o exercício)
+ Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
+ Crie uma função que mude a cor do quadrado vermelho para branco.
+ Crie uma função que corrija o texto da tag <h1>.
+ Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
+ Crie uma função que exiba o conteúdo de todas as tags <p> no console.
+        */
+    </script>
+</body>
 
-    <section class="no-emergency-tasks">
-      <div>
-        <h3>Não-Urgente e Importante</h3>
-      </div>
-      <div>
-        <h3>Não-Urgente e Não-Importante</h3>
-      </div>
-    </section>
-
-    <footer id="footer-container">
-      <div>&copy; Trybe</div>
-    </footer>
-    <script src="script.js"></script>
-  </body>
 </html>
