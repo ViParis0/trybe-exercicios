@@ -3,31 +3,51 @@
 const a = 26
 const b = 35
 
-let adicao = (a + b)
-console.log(adicao)
+function soma(a, b) {
+    return a + b;
+}
+console.log(soma(a, b))
 
-let subtracao = (a - b)
+function subtrai(a, b) {
+    return a - b;
+}
+console.log(subtrai(a, b))
 
-let multiplicacao = (a * b)
+function multiplica(a, b) {
+    return a * b;
+}
+console.log(multiplica(a, b))
 
-let divisao = (a / b)
+function divide(a, b) {
+    return a / b;
+}
+console.log(divide(a, b))
 
-let resto = (a % b)
 
 // #2
 
-const x = 97
+const x = 2
 const y = 45
 const z = 66
 
 let maior2 = null
 
-if (x > y) {
-    console.log('X é o maior')
+// if (x > y) {
+//     console.log('X é o maior')
+// }
+// else if (y > x)  {
+//     console.log('Y é o maior')
+// }
+
+function maior(x , y) {
+    if (x > y) {
+        return console.log('X é o maior')
+    }
+    else {
+        return console.log('Y é o maior')
+    }
 }
-else if (y > x)  {
-    console.log('Y é o maior')
-}
+console.log(maior(x, y))
 
 // #3
 

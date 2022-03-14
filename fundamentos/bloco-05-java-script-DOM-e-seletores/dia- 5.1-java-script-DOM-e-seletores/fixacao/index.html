@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <header>
+        <style>
+            .paragraph {
+                color: red;
+            }
+        </style>
+        <h2 id="page-title">Título</h2>
+        <p class="paragraph">Dê uma cor para este parágrafo!</p>
+        <h4 id="subtitle">Subtítulo</h4>
+        <p class="paragraph">Segundo parágrafo!</p>
+
+    </header>
+
+    <body>
+        <script>
+
+
+            console.log(document.getElementById('page-title').innerText = 'Limitless')
+            let paragrafo = document.getElementsByClassName('paragraph');
+            for (let i = 0; i < paragrafo.length; i += 1) {
+                paragrafo[1].innerText = 'Encarando o desemprego e a rejeição de sua namorada, o escritor Eddie Morra tem certeza que não tem mais futuro. Mas tudo muda quando um velho amigo lhe dá uma droga que melhora as habilidades mentais. Viciado nesta química ainda não testada, Eddie chega ao topo do mundo financeiro e chama a atenção de um magnata que pretende usá-lo para fazer fortuna. Mas terríveis efeitos colaterais e a diminuição do estoque da droga ameaçam o colapso de Eddie.'
+
+                paragrafo[0].innerText = 'Dê uma cor a esse parágrafo!'
+
+            }
+
+            console.log(paragrafo)
+
+
+            console.log(document.getElementById('subtitle').innerText = 'Sinopse')
+        </script>
+    </body>
+
+</html>
