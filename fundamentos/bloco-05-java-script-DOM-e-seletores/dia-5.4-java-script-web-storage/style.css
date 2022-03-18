@@ -1,0 +1,36 @@
+.botao {
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.paragrafo1 {
+    max-width: 40%;
+    background-color: lightgrey;
+    color: black;
+    font-size: 25px;
+    line-height: 1,5;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.paragrafo2 {
+    max-width: 70%;
+    background-color: purple;
+    color: white;
+    font-size: 30px;
+    line-height: 2;
+
+font-family: 'Newsreader', serif;
+}
+
+.paragrafo3 {
+    max-width: 100%;
+    background-color: rgba(204, 169, 13, 0.411);
+    color: black;
+    font-size: 30px;
+    line-height: 1,5;
+    font-family: 'Courgette', cursive
+}
