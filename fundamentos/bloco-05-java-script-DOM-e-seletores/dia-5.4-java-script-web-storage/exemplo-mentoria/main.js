@@ -57,8 +57,7 @@ function transformaLowerCase(event) {
 
 // EXTRA SE DER TEMPO, trocar a cor dos buttons 
 function colorsButton(event) {
-  const colorClass = document.querySelector('.color-button');
-  console.log(colorClass)
+  const colorClass = document.querySelector('.color-button');  
   colorClass.classList.remove('color-button');
   event.target.classList.add('color-button');
 }
