@@ -12,4 +12,4 @@ selectBtn.addEventListener('click', preventDefaultBtn)
 //     document.location.reload(true)
 // })
 
-let picker = new Pikaday({ field: document.getElementById('datepicker') }); 
+let picker = new Pikaday({ field: document.getElementById('datepicker') });
