@@ -2,19 +2,7 @@
 
 ## Criando um formulário para concorrer a uma viagem
 
-Imagine que você está surfando na internet. Você agora é uma pessoa desenvolvedora, cansada após finalmente terminar seus estudos e pensando nas suas maravilhosas e merecidas férias.
-Então, você se depara com um anúncio do concurso TrybeTrip, que premia com uma viagem totalmente paga e com várias opções de destino. Como você imagina que seria a página para concorrer a essa viagem?
-Concorda que seria uma espécie de formulário?
-O exercício hoje será desenvolver uma página web com o formulário da TrybeTrip. Desenvolva-o em um arquivo chamado form.html . A estruturação de sua página deverá ficar semelhante com a imagem abaixo.
-
-![formTrybe](https://s3.us-east-2.amazonaws.com/assets.app.betrybe.com/fundamentals/html-forms/images/Excalidraw-forms-94cb593582e99fd08f284274fd8b50ab.png)
-
->A imagem acima foi criada no Excalidraw , ele serve para criar diagramas e estruturas num quadro branco, muito útil para tirar aquela ideia de layout de sua cabeça e colocá-la em visualização. Outra ferramenta ótima para quem se interessa em design é o Figma . Vale a pena dar uma olhada.
-**Dicas:**
-* Crie o costume de adicionar ID's a elementos únicos e classes a elementos com comportamentos similares, pois isso facilitará muito sua vida como pessoa desenvolvedora;
-* Procure saber mais sobre as Tags <label> e <fieldset> clicando nas documentações a seguir:
-  * Label ; 
-  * Fieldset;
+O exercicio de hoje, foi pedido para criar um formulário para concorrer a uma viagem. Contento os seguintes requisitos:
 
 1- O formulário deverá permitir que o usuário insira os seguintes campos:
 * Nome Completo:
