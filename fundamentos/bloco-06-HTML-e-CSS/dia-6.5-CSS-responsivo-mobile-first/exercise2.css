@@ -15,7 +15,7 @@ html {
 p {
     padding: 20px;
 }
-@media (max-width: 400px) {
+@media (min-width: 238px), (max-width: 400px) {
     *{
         margin: 0;
     }
@@ -54,7 +54,7 @@ p {
     background-color: aqua;
 }
 }
-@media (min-width: 401) ,  (max-width: 600px){
+/* @media (min-width: 401) ,  (max-width: 600px){
     body {
         border: 10px solid yellow;
     }
@@ -94,45 +94,4 @@ p {
     footer {
         background-color: rgb(255, 196, 0);
     }
-}
-@media (min-width: 601){
-    body {
-        border: 10px solid yellow;
-    }
-    header p{
-        font-size: 30px;
-        padding: 10px;
-        margin:auto;
-    }
-    header {
-        display: flex;
-        flex-flow: column nowrap;
-        background-color: rgb(255, 196, 0);
-        font-size: x-large;
-    }
-    nav ul {
-        font-size:large;
-        display: flex;
-        justify-content: space-around;
-        align-items: baseline;
-        flex: 2;
-        background-color: rgb(255, 136, 0);
-       }
-       .aside-one {
-        font-size: large;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;       
-    }
-    p {
-     font-size: large;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    h1 {
-        font-size: x-large;
-    }
-    h2 {
-        font-size: large;
-    }
-    footer {
-        background-color: rgb(255, 196, 0);
-    }
-}
+} */
